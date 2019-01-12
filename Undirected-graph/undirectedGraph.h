@@ -256,7 +256,7 @@ bool graph::isPathCode(int srcNode, int dstNode){
     return flag;
 }
 
-check if both node exist before going to ispathcode
+/*check if both node exist before going to ispathcode
 doesnt go to ispathcode if it's not a node*/
 bool graph::isPath(int srcNode, int dstNode){
     fileToClear("isPath.txt");
